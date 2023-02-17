@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - "function"
- * description - with proper grammar, but the outcome is a piece of art,
+ * main - C program that prints exactly with proper grammar
  *
- * Return 0;
+ * Return: 0;
  */
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
-return  (0) ;	
+return (0);
 }

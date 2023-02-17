@@ -2,7 +2,7 @@
 
 /**
  * main-function
- * description
+ * 
  *
  * return: always 0
  */

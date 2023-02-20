@@ -5,7 +5,7 @@
 * main - print the values of n
 * positive, negative and zero
 *
-* Return: 0;
+* Return: 0.
 */
 int main(void)
 {
@@ -14,15 +14,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("%dis positive\n");
-};
+printf("%d is positive\n", n);
+}
 else if (n < 0)
 {
-printf("%dis negative\n");
-};
+printf("%d is negative\n", n);
+}
 else
 {
-pintf("%dis zero\n")
-};
+printf("%d is zero\n", n);
+}
 return (0);
-};
+}

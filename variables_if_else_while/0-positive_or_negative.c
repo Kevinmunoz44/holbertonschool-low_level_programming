@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
 * main - print the values of n
-* positive negative and zero
+* positive, negative and zero
 *
 * Return: 0;
 */

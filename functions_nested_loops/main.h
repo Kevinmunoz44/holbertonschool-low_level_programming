@@ -1,10 +1,10 @@
-#include <stdio.h>
-void print_alphabet(void)
-{
-char alphabet;
-for (alphabet = 'a'; alphabet < 'z'; alphabet++)
-{
-putchar(alphabet);
-}
-putchar('\n');
-}
+
+/**
+* main - check the code
+*
+*
+* Return: 0;
+*/
+
+int _putchar(char c);
+void print_alphabet(void);

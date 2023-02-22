@@ -10,4 +10,6 @@ int print_last_digit(int digit)
 {
 if (digit % 10)
 return (digit);
+else
+return (-digit);
 }

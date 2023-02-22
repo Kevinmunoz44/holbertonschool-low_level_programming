@@ -13,8 +13,8 @@ while (i <= 10)
 {
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-putchar(alphabet);
-putchar('\n');
+_putchar(alphabet);
+_putchar('\n');
 }
 i++;
 }

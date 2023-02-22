@@ -15,7 +15,7 @@ for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 _putchar(alphabet);
 }
-_putchat('\n');
+_putchar('\n');
 i++;
 }
 }

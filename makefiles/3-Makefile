@@ -13,4 +13,4 @@ fclean:
 re:
 	$(CC) $(OBJ)
 all:
-	$(CC) $(OBJ) -o school
+	$(CC) $(OBJ) -o $(NAME)

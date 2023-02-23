@@ -5,7 +5,7 @@ NAME=school
 RM=rm -f
 
 CLEAN:
-	$(RM) $(NAME)
+	$(RM) $(OBJ) $(NAME)
 OCLEAN:
 	$(RM) $(OBJ)
 FCLEAN:

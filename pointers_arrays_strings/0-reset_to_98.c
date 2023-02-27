@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * reset_to_98 - 
- * @n: - 
+ * reset_to_98 - update the value of n
+ * @n: - save values
  *
  * Return: 0;
  */

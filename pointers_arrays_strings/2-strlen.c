@@ -10,7 +10,6 @@
 int _strlen(char *s)
 {
 int result;
-size_t result = 0;
-while(*s++) ++result;
+result = strlen(s);
 return (result);
 }

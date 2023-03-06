@@ -15,5 +15,4 @@ for (count = count - 1; s[count] != '\0'; count--)
 {
 _putchar(s[count]);
 }
-_putchar('\n');
 }

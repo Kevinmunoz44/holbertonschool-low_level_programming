@@ -15,8 +15,10 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (i = 1; i < str[i]; i++)
-;
+for (i = 1; i < str[i];)
+{
+i++;
+}
 k = malloc((sizeof(char) * i) + 1);
 if (k == NULL)
 {

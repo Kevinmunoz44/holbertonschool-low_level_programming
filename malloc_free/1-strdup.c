@@ -9,21 +9,17 @@
  */
 char *_strdup(char *str)
 {
-int a = 0, i = 1;
-char *s;
+char *d;
+int i, n = 0;
 if (str == NULL)
 return (NULL);
-for (i = 1; i < str[i];)
-{
-i++;
-}
-s = malloc((sizeof(char) * i) +1);
-if (s == NULL)
+for (i = 0; str[i]; i++)
+n++;
+d = malloc(sizeof(char) * (n + 1));
+if (d == NULL)
 return (NULL);
-for (a = 0; a < i; a++)
-{
-s[a] = str[a];
-}
-s[a] = '\0';
-return (s);
+for (i = 0; str[i]; i++)
+d[i] = str[i];
+d[n] = '\0';
+return (d);
 }
